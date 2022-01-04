@@ -1,0 +1,48 @@
+.section-content {
+  width: 100%;
+
+  font-size: 2vw;
+}
+
+.section-content__box {
+  display: flex;
+  padding: 5px 10px;
+}
+
+.section-content__call {
+  display: flex;
+}
+
+.locate-img__box,
+.call-img__box {
+  width: 10%;
+}
+
+.locate-address,
+.call-number {
+  width: 70%;
+  text-align: left;
+}
+
+.locate-view {
+  width: 20%;
+  text-align: left;
+}
+.locate-view__map {
+  color: rgba(11, 26, 228, 0.5);
+}
+
+.locate-img,
+.call-img {
+  width: 20px;
+  height: 20px;
+}
+.locate-address,
+.locate-view,
+.call-number {
+  line-height: 23px;
+}
+
+.locate-view__map:hover {
+  border-bottom: 1px solid rgba(11, 26, 228, 0.5);
+}

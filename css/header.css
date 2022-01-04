@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+}
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  height: 50px;
+  margin: 10px 20px;
+}
+
+.header-component > a::after {
+  padding-left: 10px;
+  content: "|";
+}
+
+.header-component > a:last-child::after {
+  content: "";
+}

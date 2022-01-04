@@ -1,0 +1,90 @@
+.store-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 190px;
+  width: 100%;
+}
+
+nav {
+  width: 25%;
+}
+section {
+  width: 50%;
+}
+aside {
+  width: 25%;
+}
+
+nav {
+  font-size: 2.2vw;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-menu {
+  position: fixed;
+  top: 360px;
+}
+nav-menu > li {
+  margin: 10px 0;
+}
+
+.nav-menu__title {
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-menu__title:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+/* 우측 화면*/
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 35px;
+}
+
+aside > ul {
+  position: fixed;
+  z-index: 1000;
+}
+
+.info-box {
+  width: 100%;
+}
+
+.info-box__btn {
+  display: flex;
+  padding: 10px 0;
+}
+
+.info-box__tab {
+  text-align: center;
+  width: 33%;
+  line-height: 30px;
+  height: 30px;
+}
+.info-box__tab:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.info-box__tab > a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.section-img {
+  width: auto;
+  max-width: 100%;
+}
