@@ -1,3 +1,0 @@
-# psmosi.github.io
-
-# mosimosi
